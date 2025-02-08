@@ -1,0 +1,76 @@
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Liter:wght@400&display=swap');
+
+.liter-regular {
+    font-family: "Liter", tahoma, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+#carddiv {
+    background-color: whitesmoke;
+    width: 580px;
+    border: 3px solid #121212;
+    font-family: "Liter";
+    color: #121212;
+    text-align: center;
+    align-items: center;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    background-color: rgb(219, 230, 226);
+    justify-content: center;
+    align-items: center;
+
+}
+
+#paragraphdiv {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    width: 379px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    font-style: italic;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p a {
+    color: inherit
+}
+
+#pitchjpg {
+    border: 3px solid #121212;
+    width: 380px;
+}
+
+.buttonsdiv {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+    padding: 10px;
+}
+
+#email-btn {
+    width: 250px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 3px solid #121212;
+}
+
+#join-btn {
+    background-color: #121212;
+    color: white;
+    width: 250px;
+    padding: 10px;
+    border: 3px solid #121212;
+
+}
